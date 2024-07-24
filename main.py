@@ -20,14 +20,6 @@ from background import keep_alive
 import pip
 
 
-pip.main(['install', 'aiogram'])
-pip.main(['install', 'flask'])
-pip.main(['install', 'asyncio'])
-pip.main(['install', 'aiosqlite'])
-pip.main(['install', 'python-dotenv'])
-
-pip.main(['install', 'sqlalchemy[asyncio]'])
-
 # Разрешенные типы обновлений, которые будут обрабатываться ботом
 ALLOWED_UPDATES = [
     "message", "edited_message", "inline_query", "chosen_inline_result",
