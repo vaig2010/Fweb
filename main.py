@@ -21,7 +21,7 @@ import pip
 
 
 pip.main(['install', 'aiogram'])
-
+pip.main(['install', 'flask'])
 pip.main(['install', 'asyncio'])
 pip.main(['install', 'aiosqlite'])
 pip.main(['install', 'python-dotenv'])
