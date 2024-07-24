@@ -4,3 +4,4 @@ asyncio
 aiosqlite
 python-dotenv
 sqlalchemy[asyncio]
+requests
